@@ -5,5 +5,5 @@ def multiplication_list(lst):
 
 lst = [2, 3, 4, 5, 6]
 multiplication_list(lst)
-lst = list(map(int, input("Введите числа через пробел:\n").split()))
+lst = list(map(int, input("Введите последовательность чисел:\n").split()))
 multiplication_list(lst)
